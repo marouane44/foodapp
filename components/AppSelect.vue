@@ -23,7 +23,7 @@
               selectOptions:{
 
                   type:Array,
-                  default: () => ["tacos","pizza","dim sum"],
+                  default: () => ["tacos","pizza"," dim sum"],
               }
           },
 
