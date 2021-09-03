@@ -1,6 +1,6 @@
  <template>
      <div>
- <label :for="select">what cuisine do you want {{select}}</label>
+ <label :for="select">what {{select}} do you want </label>
 
 <select @change="$emit('change', $event.target.value)" :id="select" :name="select">
      <option value>---pleas select a {{select}}---</option>
